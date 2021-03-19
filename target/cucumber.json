@@ -1,0 +1,114 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5609705100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.initialisation()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "verify login funcationality",
+        "description": "",
+        "id": "login-page;verify-login-funcationality",
+        "after": [
+          {
+            "result": {
+              "duration": 108331400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 246840400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginStepDef.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1651877700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on login link",
+            "match": {
+              "location": "LoginStepDef.i_click_on_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 742141500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter login details",
+            "match": {
+              "location": "LoginStepDef.i_enter_login_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email",
+                  "test@test.com"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "password",
+                  "qatest123"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18987400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be able to login to the webpage",
+            "match": {
+              "location": "LoginStepDef.i_should_be_able_to_login_to_the_webpage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login Page",
+    "description": "",
+    "id": "login-page",
+    "keyword": "Feature",
+    "uri": "Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@login"
+      }
+    ]
+  }
+]
