@@ -32,6 +32,7 @@ public class Hooks  extends BaseClass{
 	{
 		
 		driver.close();
-	}
+		driver.quit();
+	} 
 
 }
